@@ -3,6 +3,7 @@
 
     <string name="app_name">com.dat.proyectofinal.tutelo</string>
     <string name="hello_world">Hello world!</string>
+    <string name="hello_world1">Hello amigos!</string>
     <string name="menu_settings">Settings</string>
 
 </resources>
