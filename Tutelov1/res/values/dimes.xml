@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_size_room">14sp</dimen>
+    <dimen name="font_size_invited">18sp</dimen>
+    <dimen name="font_size_namehotel">15sp</dimen>
+    <dimen name="font_size_addresshotel">11sp</dimen>
+    <dimen name="font_size_dishotel">9sp</dimen>
+    <dimen name="font_size_pricehotel">11sp</dimen>
+    <dimen name="font_size_tabbusqueda">15sp</dimen>
+    <dimen name="font_size_tabhistorial">15sp</dimen>
+    <dimen name="font_size_recomendacionhistorial">10sp</dimen>
+    <dimen name="font_size_hotelselected_name">16sp</dimen>
+    <dimen name="font_size_hotelselected_cantroomdisponibles">14sp</dimen>
+    <dimen name="font_size_hotelselected_address">12sp</dimen>
+    <dimen name="font_size_hotelselected_labeltipo">12sp</dimen>
+    <dimen name="font_size_hotelselected_tipo">12sp</dimen>
+    <dimen name="font_size_hotelselected_labelprice">12sp</dimen>
+    <dimen name="font_size_hotelselected_price">13sp</dimen>
+    <dimen name="font_size_hotelselected_labeldis">12sp</dimen>
+    <dimen name="font_size_hotelselected_dis">12sp</dimen>
+    <dimen name="font_size_hotelselected_labelphono">12sp</dimen>
+    <dimen name="font_size_hotelselected_phono">12sp</dimen>
+    <dimen name="font_size_hotelselected_btnreserva">12sp</dimen>
+    <dimen name="font_size_hotelselected_btnphono">12sp</dimen>
+    <dimen name="font_size_imgroomselected_tiporoom">12sp</dimen>
+
+</resources>

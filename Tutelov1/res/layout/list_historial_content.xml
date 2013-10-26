@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/img_hotel_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imghotel" />
+
+    <TextView
+        android:id="@+id/txtnomhotel_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/relativelist"
+        android:layout_toRightOf="@id/img_hotel_historial"
+        android:text="@string/texto_label_nomhotel"
+        android:textSize="@dimen/font_size_namehotel" />
+
+    <TextView
+        android:id="@+id/txtdirhotel_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtnomhotel_historial"
+        android:layout_below="@id/txtnomhotel_historial"
+        android:layout_toRightOf="@id/img_hotel_historial"
+        android:text="@string/texto_label_dirhotel"
+        android:textSize="@dimen/font_size_addresshotel" />
+
+    
+    
+    <ImageView
+        android:id="@+id/img_runner_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtdirhotel_historial"
+        android:layout_below="@id/txtdirhotel_historial"
+        android:layout_toRightOf="@id/img_hotel_historial"
+        android:src="@drawable/img_runner" />
+
+    <TextView
+        android:id="@+id/txtdishotel_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdirhotel_historial"
+        android:layout_toRightOf="@id/img_runner_historial"
+        android:gravity="center"
+     
+        android:text="@string/texto_label_dishotel"
+        android:textSize="@dimen/font_size_dishotel" />
+
+    <RatingBar
+        android:id="@+id/ratingBarhotel_historial"
+        style="@style/RatingBarBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdirhotel_historial"
+        android:layout_toRightOf="@id/txtdishotel_historial" />
+
+    <ImageView
+        android:id="@+id/img_priceroom_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdirhotel_historial"
+        android:layout_toRightOf="@id/ratingBarhotel_historial"
+        android:src="@drawable/img_priceroom" />
+
+    <TextView
+        android:id="@+id/txtpriroom_historial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdirhotel_historial"
+        android:layout_toRightOf="@id/img_priceroom_historial"
+        android:text="@string/texto_label_prihotel"
+        android:textSize="@dimen/font_size_pricehotel" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_hotelselected_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_hotelselected_name"
+        android:textSize="@dimen/font_size_hotelselected_name" />
+
+    <TextView
+        android:id="@+id/txt_hotelselected_cantroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txt_hotelselected_nom"
+        android:layout_below="@id/txt_hotelselected_nom"
+        android:text="@string/texto_hotelselected_cantroomdisponibles"
+        android:textSize="@dimen/font_size_hotelselected_cantroomdisponibles" />
+
+    <RatingBar
+        android:id="@+id/ratingBar_hotelselected"
+        style="@style/RatingBarBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hotelselected_nom"
+        android:layout_toRightOf="@id/txt_hotelselected_cantroom" />
+
+    <ImageView
+        android:id="@+id/img_hotelselected_ubication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txt_hotelselected_cantroom"
+        android:layout_below="@id/txt_hotelselected_cantroom"
+        android:src="@drawable/img_mapmarker" />
+
+    <TextView
+        android:id="@+id/txt_hotelselected_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hotelselected_cantroom"
+        android:layout_toRightOf="@id/img_hotelselected_ubication"
+        android:text="@string/texto_hotelselected_address"
+        android:textSize="@dimen/font_size_hotelselected_address" />
+
+    <Gallery
+        android:id="@+id/galleryimghotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_hotelselected_ubication"
+        android:spacing="8sp" />
+
+    <TextView
+        android:id="@+id/txt_hotelselected_label_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galleryimghotel"
+        android:text="@string/texto_hotelselected_label_tipo"
+        android:textSize="@dimen/font_size_hotelselected_labeltipo" />
+
+    <Spinner
+        android:id="@+id/spi_hotelselected_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/galleryimghotel"
+        android:layout_toRightOf="@id/txt_hotelselected_label_tipo"
+        android:textSize="@dimen/font_size_hotelselected_tipo" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tu telo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_filter">Filtro</string>
+    <string name="menu_map">Mapa</string>
+    <string name="texto_checkbox_habitaciones">Habitaciones disponibles</string>
+    <string name="texto_label_invitacion">Encuentra habitación para esta noche</string>
+    <string name="texto_label_nomhotel">HOTEL LAS BAJAS PASIONES</string>
+    <string name="texto_label_dirhotel">Av. Alfredo Mendiola 1342</string>
+    <string name="texto_label_dishotel">A 2.1 km</string>
+    <string name="texto_label_prihotel">S/. 15.00 - 40.00</string>
+    <string name="texto_tab_busqueda">Busqueda</string>
+    <string name="texto_tab_historial">Historial</string>
+    <string name="texto_label_recomendacion_historial">Para un mejor servicio no olvides calificar tus hoteles</string>
+    <string name="texto_hotelselected_name">LAS BAJAS PASIONES</string>
+    <string name="texto_hotelselected_cantroomdisponibles">5 HABITACIONES DISPONIBLES</string>
+    <string name="texto_hotelselected_address">Av. Alfredo Mendiola 2324 altura puente San Martin</string>
+    <string name="texto_hotelselected_label_tipo">Tipo:</string>
+    <string name="texto_hotelselected_tipo">Matrimonial</string>
+    <string name="texto_hotelselected_label_price">Precio:</string>
+    <string name="texto_hotelselected_price">S/. 35.00</string>
+    <string name="texto_hotelselected_label_dis">Distancia:</string>
+    <string name="texto_hotelselected_dis">A 2 kilometros de ti</string>
+    <string name="texto_hotelselected_label_phone">Telefono:</string>
+    <string name="texto_hotel_selectedphone">997827626</string>
+    <string name="texto_hotelselected_btnreservar">Reservar</string>
+    <string name="texto_hotelselected_btnfotos">Fotos</string>
+    <string name="texto_imgroomselected_tiporoom">Tipo de habitación</string>
+
+    <color name="color_letra">#00B82E</color>
+    <color name="color_background_fondo">#0f000f</color>
+    <color name="color_background_tab">#555555</color>
+    <color name="color_background_tab2">#555555</color>
+    <color name="color_letra_blanco">#FAFAFA</color>
+
+</resources>
