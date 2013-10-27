@@ -7,16 +7,34 @@ public class Hotel {
 	private String strdescripcion;
 	private String strdireccion;
 	private String strtelefono;
-	private float decdx;
-	private float decdy;
+	private double decdx;
+	private double decdy;
 	private double decdistancia;
 	private int intowner;
 	private int intemploye1;
-	
 
 	private int intemploye2;
+
 	private int intcalificacion;
 	private int intidestado;
+	private int intestrellas;
+	private String stridtiposervicio;
+
+	public int getIntestrellas() {
+		return intestrellas;
+	}
+
+	public void setIntestrellas(int intestrellas) {
+		this.intestrellas = intestrellas;
+	}
+
+	public String getStridtiposervicio() {
+		return stridtiposervicio;
+	}
+
+	public void setStridtiposervicio(String stridtiposervicio) {
+		this.stridtiposervicio = stridtiposervicio;
+	}
 
 	public double getDecDistancia() {
 		return decdistancia;
@@ -25,7 +43,7 @@ public class Hotel {
 	public void setDecDistancia(double decDistancia) {
 		this.decdistancia = decDistancia;
 	}
-	
+
 	public int getIntIdHotel() {
 		return intidhotel;
 	}
@@ -66,19 +84,19 @@ public class Hotel {
 		this.strtelefono = strTelefono;
 	}
 
-	public float getDecDx() {
+	public double getDecDx() {
 		return decdx;
 	}
 
-	public void setDecDx(float decDx) {
+	public void setDecDx(double decDx) {
 		this.decdx = decDx;
 	}
 
-	public float getDecDy() {
+	public double getDecDy() {
 		return decdy;
 	}
 
-	public void setDecDy(float decDy) {
+	public void setDecDy(double decDy) {
 		this.decdy = decDy;
 	}
 

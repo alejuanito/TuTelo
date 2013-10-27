@@ -9,7 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/texto_hotelselected_name"
-        android:textSize="@dimen/font_size_hotelselected_name" />
+        android:textSize="@dimen/font_size_hotelselected_name" 
+        />
 
     <TextView
         android:id="@+id/txt_hotelselected_cantroom"
@@ -64,8 +65,67 @@
         android:id="@+id/spi_hotelselected_tipo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        
         android:layout_below="@id/galleryimghotel"
         android:layout_toRightOf="@id/txt_hotelselected_label_tipo"
-        android:textSize="@dimen/font_size_hotelselected_tipo" />
+        android:background="@drawable/btn_spinner"
+        android:textSize="@dimen/font_size_hotelselected_spinner_displaynom" />
+<TextView
+        android:id="@+id/txt_hotelselected_label_precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spi_hotelselected_tipo"
+        android:layout_alignLeft="@+id/txt_hotelselected_label_tipo"
+        android:text="@string/texto_hotelselected_label_price"
+        android:textSize="@dimen/font_size_hotelselected_labelprice" />
+<TextView
+        android:id="@+id/txt_hotelselected_precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spi_hotelselected_tipo"
+        android:layout_toRightOf="@id/txt_hotelselected_label_precio"
+        android:text="@string/texto_hotelselected_price"
+        android:textSize="@dimen/font_size_hotelselected_price" />
+<TextView
+        android:id="@+id/txt_hotelselected_label_distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hotelselected_label_precio"
+        android:text="@string/texto_hotelselected_label_dis"
+        android:textSize="@dimen/font_size_hotelselected_labeldis" />
+<TextView
+        android:id="@+id/txt_hotelselected_distancia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hotelselected_label_precio"
+        android:layout_toRightOf="@id/txt_hotelselected_label_distancia"
+        android:text="@string/texto_hotelselected_dis"
+        android:textSize="@dimen/font_size_hotelselected_dis" />
+<ImageView
+        android:id="@+id/img_hotelselected_llamada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_toRightOf="@id/txt_hotelselected_distancia"
+        android:layout_below="@id/txt_hotelselected_label_precio"
+        android:src="@drawable/img_llamada" />
 
+<Button
+    android:id="@+id/btn_reservar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/img_hotelselected_llamada"
+    android:text="@string/texto_hotelselected_btnreservar"
+    android:textSize="@dimen/font_size_hotelselected_btnreserva"
+    style="@style/BotonCustom" />
+<Button
+    android:id="@+id/btn_hotelselected_cancelar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@+id/btn_reservar"
+    android:text="@string/texto_hotelselected_btncancelar"
+    android:textSize="@dimen/font_size_hotelselected_btncancelar"
+    style="@style/BotonCustom" />
+    
 </RelativeLayout>

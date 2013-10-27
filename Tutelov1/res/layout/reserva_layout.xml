@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edi_hotelreserva_namecliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/texto_hotelreserva_nombre"
+        android:textSize="@dimen/font_size_hotelselected_name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edi_hotelreserva_dnicliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi_hotelreserva_namecliente"
+        android:hint="@string/texto_hotelreserva_dni"
+        android:textSize="@dimen/font_size_hotelselected_name" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/txt_hotelreserva_label_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edi_hotelreserva_dnicliente"
+        android:text="@string/texto_hoteLreserva_label_tipo"
+        android:textSize="@dimen/font_size_hotelselected_name" />
+
+    <Spinner
+        android:id="@+id/spi_hotelreserva_tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_hotelreserva_label_tipo"
+        android:background="@drawable/btn_spinner"
+        android:textSize="@dimen/font_size_hotelselected_spinner_displaynom" />
+
+    <TextView
+        android:id="@+id/txt_hotelreserva_label_cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spi_hotelreserva_tipo"
+        android:text="@string/texto_hotelreserva_label_cantidad"
+        android:textSize="@dimen/font_size_hotelselected_name" />
+
+</RelativeLayout>

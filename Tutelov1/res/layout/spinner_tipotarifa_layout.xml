@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@drawable/bluegradient">
+
+<TextView android:id="@+id/txtnomtipotarifa"
+          android:singleLine="true"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:gravity="center"
+          android:ellipsize="marquee"
+          style="@style/SpinnerText"
+          android:textSize="@dimen/font_size_hotelselected_spinner_nom"/>
+
+<TextView android:id="@+id/txtpreciotipotarifa"
+          android:singleLine="true"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:ellipsize="marquee"
+          style="@style/SpinnerText"
+          android:textSize="@dimen/font_size_hotelselected_spinner_precio"
+          />
+
+<ImageView android:id="@+id/imgroomdisponible"
+          android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:gravity="right"
+           android:background="@drawable/img_nodisponible"/>
+</LinearLayout>

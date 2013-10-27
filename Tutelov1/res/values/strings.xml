@@ -26,9 +26,19 @@
     <string name="texto_hotelselected_dis">A 2 kilometros de ti</string>
     <string name="texto_hotelselected_label_phone">Telefono:</string>
     <string name="texto_hotel_selectedphone">997827626</string>
-    <string name="texto_hotelselected_btnreservar">Reservar</string>
-    <string name="texto_hotelselected_btnfotos">Fotos</string>
+    <string name="texto_hotelselected_btnreservar">Ir a reservar</string>
+    <string name="texto_hotelselected_btncancelar">Cancelar</string>
     <string name="texto_imgroomselected_tiporoom">Tipo de habitación</string>
+    <string name="texto_hotelreserva_nombre">Ingrese nombre y apellidos</string>
+    <string name="texto_hotelreserva_dni">Ingrese número de DNI</string>
+    <string name="texto_hoteLreserva_label_tipo">Tipo de habitación:</string>
+    <string name="texto_hotelreserva_label_cantidad">Cantidad de habitaciones:</string>
+    <string name="texto_hotelreserva_label_precio">Total:</string>
+    <string name="texto_hotelreserva_precio">S/. 35.00</string>
+    <string name="texto_hotelreserva_btnfotos">Fotos</string>
+    <string name="texto_hotelreserva_btnconfirmareserva">Confirmar reserva</string>
+    <string name="texto_hotelreserva_labelcondiciones">Acepto los terminos y condiciones de la reserva</string>
+    <string name="texto_hotelreserva_labelavisoreserva">ATENCIÓN: Se ha reservado la habitación, esta reserva estará disponible por </string>
 
     <color name="color_letra">#00B82E</color>
     <color name="color_background_fondo">#0f000f</color>

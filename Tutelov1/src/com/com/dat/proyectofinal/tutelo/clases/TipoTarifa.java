@@ -5,9 +5,44 @@ public class TipoTarifa {
 	private int intidtipotarifa;
 	private String strtipotarifa;
 	private int intidhabitacion;
-	private double dbPrecioLista;
-	private double dbDescuento;
-	private int intIdEstado;
+	private float dbpreciolista;
+	private float dbdescuento;
+	private int intidestado;
+	private int intimgtipotarifa;
+	private boolean boroomdisponible;
+
+	public TipoTarifa(int _intidtipotarifa, String _strtipotarifa,
+			int _intidhabitacion, float _dbpreciolista, boolean _boroomdisponible, int _intimgtipotarifa) {
+
+		this.intidtipotarifa = _intidtipotarifa;
+		this.strtipotarifa = _strtipotarifa;
+		this.intidhabitacion = _intidhabitacion;
+		this.dbpreciolista = _dbpreciolista;
+		this.boroomdisponible=_boroomdisponible;
+		this.intimgtipotarifa=_intimgtipotarifa;
+
+	}
+
+	public String toString()
+    {
+        return strtipotarifa;
+    }
+	
+	public boolean isBoroomdisponible() {
+		return boroomdisponible;
+	}
+
+	public void setBoroomdisponible(boolean boroomdisponible) {
+		this.boroomdisponible = boroomdisponible;
+	}
+
+	public int getIntimgtipotarifa() {
+		return intimgtipotarifa;
+	}
+
+	public void setIntimgtipotarifa(int intimgtipotarifa) {
+		this.intimgtipotarifa = intimgtipotarifa;
+	}
 
 	public int getIntIdTipoTarifa() {
 		return intidtipotarifa;
@@ -33,28 +68,28 @@ public class TipoTarifa {
 		this.intidhabitacion = intIdHabitacion;
 	}
 
-	public double getDbPrecioLista() {
-		return dbPrecioLista;
+	public float getDbPrecioLista() {
+		return dbpreciolista;
 	}
 
-	public void setDbPrecioLista(double dbPrecioLista) {
-		this.dbPrecioLista = dbPrecioLista;
+	public void setDbPrecioLista(float dbPrecioLista) {
+		this.dbpreciolista = dbPrecioLista;
 	}
 
-	public double getDbDescuento() {
-		return dbDescuento;
+	public float getDbDescuento() {
+		return dbdescuento;
 	}
 
-	public void setDbDescuento(double dbDescuento) {
-		this.dbDescuento = dbDescuento;
+	public void setDbDescuento(float dbDescuento) {
+		this.dbdescuento = dbDescuento;
 	}
 
 	public int getIntIdEstado() {
-		return intIdEstado;
+		return intidestado;
 	}
 
 	public void setIntIdEstado(int intIdEstado) {
-		this.intIdEstado = intIdEstado;
+		this.intidestado = intIdEstado;
 	}
 
 }

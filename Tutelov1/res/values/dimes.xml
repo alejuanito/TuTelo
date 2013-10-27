@@ -22,7 +22,10 @@
     <dimen name="font_size_hotelselected_labelphono">12sp</dimen>
     <dimen name="font_size_hotelselected_phono">12sp</dimen>
     <dimen name="font_size_hotelselected_btnreserva">12sp</dimen>
-    <dimen name="font_size_hotelselected_btnphono">12sp</dimen>
+    <dimen name="font_size_hotelselected_btncancelar">12sp</dimen>
     <dimen name="font_size_imgroomselected_tiporoom">12sp</dimen>
+     <dimen name="font_size_hotelselected_spinner_nom">15sp</dimen>
+    <dimen name="font_size_hotelselected_spinner_precio">15sp</dimen>
+    <dimen name="font_size_hotelselected_spinner_displaynom">18sp</dimen>
 
 </resources>
